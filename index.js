@@ -26,16 +26,31 @@ const fareQuintupler = num => {
     return num * 5
 }
 
-function createFareMultiplier(fareDoubler) {
-    return function() {
-        fareDoubler()
-        fareTripler()
+const fareMultiplier = num => {
+    return num * 2
+}
+
+// const fareMultiplier = createFareMultiplier(2);
+
+function createFareMultiplier(multiplier) {
+    return function(fare) {
+        return fare * multiplier
     }
 }
+
+let fareQuintuplerTwo = createFareMultiplier(5)
+
+let fareQuintuplerThree = (fare, multipler) => {
+    return fare * multipler
+}
+
+fareQuintuplerThree(5, 10)
+
+console.log(fareQuintuplerTwo(10))
 
 function selectDifferentDrivers(array, returnFirstTwoDrivers) {
     return returnFirstTwoDrivers(array)
 }
 
-console.log(selectDifferentDrivers(drivers, returnFirstTwoDrivers))
-console.log(createFareMultiplier())
+// console.log(selectDifferentDrivers(drivers, returnFirstTwoDrivers))
+// console.log(createFareMultiplier())

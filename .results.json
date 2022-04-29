@@ -2,18 +2,18 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 12,
+    "passes": 13,
     "pending": 0,
-    "failures": 1,
-    "start": "2022-04-28T20:09:27.506Z",
-    "end": "2022-04-28T20:09:27.771Z",
-    "duration": 265
+    "failures": 0,
+    "start": "2022-04-29T22:33:52.169Z",
+    "end": "2022-04-29T22:33:52.469Z",
+    "duration": 300
   },
   "tests": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -103,20 +103,12 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "should multiply a given value using the created multiplier",
-      "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "should return a new array containing the first two drivers from the passed-in array",
       "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -151,6 +143,13 @@
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should multiply a given value using the created multiplier",
+      "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
